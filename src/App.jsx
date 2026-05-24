@@ -49,7 +49,7 @@ function FuturisticFakeNewsUI() {
   try {
 
     const response = await fetch(
-      "https://fake-news-backend-q5hq.onrender.com/",
+      "https://fake-news-backend-q5hq.onrender.com/predict",
       {
         method: "POST",
 
